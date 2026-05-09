@@ -1,0 +1,36 @@
+services:
+  db:
+    # Step 1: Use MySQL image
+
+    # Step 2: Set container name
+
+    # Step 3: Configure restart policy
+
+    # Step 4: Setup database credentials
+    environment:
+      # Root password
+      # Database name
+      # Database username
+      # Database password
+
+    # Step 5: Expose MySQL port
+
+    # Step 6: Persist database data (volume)
+
+  app:
+    # Step 7: Build app from Dockerfile
+
+    # Step 8: Set container name
+
+    # Step 9: Load environment variables from .env
+
+    # Step 10: Make app wait for database
+
+    # Step 11: Pass DB connection string to app
+
+    # Step 12: Expose application port
+
+    # Step 13: Configure restart policy
+
+# Step 14: Create persistent volume
+volumes:

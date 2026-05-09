@@ -1,0 +1,8 @@
+POST http://localhost:8080/workshops
+Content-Type: application/json
+
+{
+    "title": "Introduction to Go",
+    "speaker": "Atha",
+    "date": "2026-05-10"
+}
